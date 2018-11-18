@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white">
+        <!-- py-2 aşağıdan ve yukarıdan 2 padding koy demek -->
+      <div class="container py-2">
+        <a href="#" class="navbar-brand pl-5">Spotify</a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-spotify" aria-controls="navbar-spotify">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-spotify">
+            <ul class="navbar-nav ml-auto">
+
+              <!-- px-3 sagdan ve soldan 3 padding koy demek -->
+              <li class="navbar-item px-3">
+                <a href="#" class="nav-link text-white">Premium</a>
+              </li>
+
+              <li class="navbar-item px-3">
+                <a href="#" class="nav-link text-white">Yardım</a>
+              </li>
+
+              <li class="navbar-item px-3">
+                <a href="#" class="nav-link text-white">İndir</a>
+              </li>
+
+              <li class="navbar-item px-3">
+                <a href="#" class="nav-link text-white">Kaydol</a>
+              </li>
+              <!-- pl-3 sadece soldan 3 padding koy demek -->
+              <li class="navbar-item pl-3">
+                <a href="#" class="nav-link text-white">Oturum Aç</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-yellow py-6">
+      <div class="container">
+         <div id="spotify-slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner text-center" style="height:300px;">
+          <div class="carousel-item active">
+              <h1 class="display-3">Herkes için müzik.</h1>
+              <a href="#" class="btn btn-success">SPOTIFY'I ÜCRETSİZ OLARAK AL</a>
+              <a href="#" class="btn btn-outline-secondary">SPOTIFY PREMIUM'A GEÇ</a>
+          </div>
+          <div class="carousel-item">
+              <h1 class="display-3">Tüm ailen için Premium.<br>Sadece 20,99TL.</h1>
+                <a href="#" class="btn btn-success">DAHA FAZLA BİLGİ</a>
+          </div>
+          <div class="carousel-item">
+              <h1 class="display-3">Öğrenciler 50% <br>indirim alır.</h1>
+                <a href="#" class="btn btn-success">DAHA FAZLA BİLGİ</a>
+          </div>
+          <div class="carousel-item">
+              <h1 class="display-3">Spotify'ı Playstation ve <BR> Xbox One'da çal.</h1>
+                <a href="#" class="btn btn-success">DAHA FAZLA BİLGİ</a>
+          </div>
+        </div>
+        <a href="#spotify-slider" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#spotify-slider" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+         </div>
+     </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Spotify'da neler var?</h2>
+            <h4>Müzik</h4>
+            <p>Spotify'da milyonlarca şarkı var. En sevdiklerini dinle, yeni parçaları keşfet, mükemmel koleksiyonu oluştur.</p>
+            <h4>Çalma Listeleri</h4>
+            <p>Müzik tutkunları ve uzmanları tarafından hazırlanmış, ruh haline iyi uyacak hazır çalma listeleri bulacaksın.</p>
+            <h4>Yeni Çıkanlar</h4>
+            <p>Bu hafta yeni çıkan single ve albümleri dinle, İlk 50'de neler olduğunu keşfet.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="row no-gutters"><!-- no gutters fazlalıkları atar-->
+              <div class="col-6 col-md-12 col-lg-6">
+                <img src="test.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 col-md-12 col-lg-6">
+                <img src="test5.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 col-md-12 col-lg-6">
+                <img src="test3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-6 col-md-12 col-lg-6 d-md-none d-lg-block"><!-- d-md-none derse md den aşağısındakılerden gorunmez d-lg-block buyuk cıhazlarda tekrar gosterır-->
+                <img src="test4.jpg" class="img-fluid" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-yellow py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 offset-md-1 d-sm-none d-md-block">
+            <h6 class="text-center">Senin için yapıldı</h6>
+            <div class="row">
+              <div class="col-sm-6 text-center">
+                  <img src="test.jpg" class="img-fluid" alt="">
+                  <small class="text-white">sana özel günün derlemesi</small>
+              </div>
+              <div class="col-sm-6 text-center">
+                  <img src="test5.jpg" class="img-fluid" alt="">
+                  <small class="text-white">Yeni çıkanlar radarı</small>
+              </div>
+              <ul class="list-unstyled text-white m-3"><!-- listunstyled dendiği zaman basındakı noktaları siler -->
+                <li class="py-2">Listeler</li>
+                <li class="py-2">Yeni Çıkanlar</li>
+                <li class="py-2">Videolar</li>
+                <li class="py-2">Podcast'ler</li>
+                <li class="py-2">Keşfet</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-3 text-white"><!-- offsetmd1 bir birim ileri atar-->
+            <h1>Kolaydır.</h1>
+            <h4>Ara</h4>
+            <p>Ne dimlemek istedğini biliyor musun? Sadece ara ve çal'a dokun.</p>
+            <h4>Gözat</h4>
+            <p>En yeni listeleri, yeni çıkanları ve harika çalma listelerini hemen keşfet.</p>
+            <h4>Keşfet</h4>
+            <p>Kişisel çalma listenle her pazartesi yeni müziklerin keyfini çıkart ya da arkana yaslan ve radyo dinle.</p>
+         </div>
+
+       </div>
+     </div>
+    </section>
+
+    <section class="py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+              <h1 class="text-center float-lg-left">Bir Hesap. Her Yerde <br>Dinle.</h1>
+              <ul class="list-inline mt-5 text-center float-lg-left">
+                <li class="list-inline-item">MOBİL</li>
+                <li class="list-inline-item">BLGİSAYAR</li>
+                <li class="list-inline-item">TABLET</li>
+                <li class="list-inline-item">ARABA</li>
+              </ul>
+              <ul class="list-inline mt-3 pb-5 text-center float-lg-left">
+                <li class="list-inline-item">HOPARLÖR</li>
+                <li class="list-inline-item">PLAYSATATİON</li>
+                <li class="list-inline-item">XBOX</li>
+                <li class="list-inline-item">TV</li>
+                <li class="list-inline-item">WEB ÇALAR</li>
+              </ul>
+          </div>
+          <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-0">
+              <img src="devicesAB.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="bg-yellow py-5">Bölüm 5</section>
+
+
+
+
+    <footer class="bg-dark py-5">Footer</footer>
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/popper.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>
